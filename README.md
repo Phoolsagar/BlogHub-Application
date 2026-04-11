@@ -80,114 +80,28 @@ It provides a structured blogging system where:
 
 1. Clone the repository
 
-```bash
-git clone https://github.com/your-username/BlogHub.git
-
----
-
-## 📨 Email Notifications
-
-Integrated JavaMail API to send:
-- Registration OTP
-- Password reset OTP
-- Application confirmation
-- Application status updates
-- Employer notification on new application
-
----
-
-## 🗃️ Database Tables (Main)
-
-- users
-- jobs
-- applications
-- resume_analysis_logs
-
----
-
-## 🚀 How To Run The Project
-
-1. Clone the repository
-   
-git clone https://github.com/PhoolSagar/HireSense.git
-
-
-3. Import into Eclipse as Existing Maven Project
-
-4. Configure:
-- Database connection in DBConnection.java
-- Email credentials in MailConfig.java
-
-4. Deploy on Apache Tomcat
-
-5. Run in browser:
-
-http://localhost:8080/HireSense
-
----
-
-## 🌐 Host It (Docker)
-
-This repository now includes a containerized deployment setup:
-- `Dockerfile`
-- `docker-compose.yml`
-- `.env.example`
-
-### 1. Configure environment variables
-
-Create `.env` from `.env.example` and set real mail credentials:
 
 ```bash
-HIRESENSE_MAIL_USERNAME=your_email@gmail.com
-HIRESENSE_MAIL_PASSWORD=your_gmail_app_password
+git clone https://github.com/Phoolsagar/BlogHub-Application.git
 ```
 
-### 2. Run with Docker Compose
 
-From project root (`HireSense/`):
+2. Open in IDE (Eclipse / IntelliJ/ STS)
 
-```bash
-docker compose --env-file .env up -d --build
+3. Configure database in application.properties
+
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/bloghub
+spring.datasource.username=root
+spring.datasource.password=your_password
 ```
 
-### 3. Open the app
+4.Run the Spring Boot application
 
-```text
-http://localhost:8080/HireSense/login.jsp
+5.Open in browser:
 ```
-
-### 4. Runtime configuration keys
-
-The app reads these environment variables at startup:
-- `HIRESENSE_DB_URL`
-- `HIRESENSE_DB_USERNAME`
-- `HIRESENSE_DB_PASSWORD`
-- `HIRESENSE_MAIL_USERNAME`
-- `HIRESENSE_MAIL_PASSWORD`
-- `HIRESENSE_APP_NAME`
-
-If not provided, it falls back to values in `WEB-INF/web.xml`.
-
----
-
-## 🔒 Security Features
-
-- Session-based authentication
-- Role-based access (User / Employer)
-- Input validation
-- Secure email authentication
-
----
-
-## 📌 Future Improvements
-
-- Interview scheduling system
-- Admin dashboard
-- In-app notification system
-- Resume update management
-- Cloud deployment
-
----
+http://localhost:8080/
+```
 
 ## 👨‍💻 Developed By
 
@@ -199,30 +113,35 @@ B.Tech Computer Science Engineering
 
 ## 📷 Screenshots
 
-# Home page
-<img width="2159" height="1224" alt="image" src="https://github.com/user-attachments/assets/a7ad4249-4ea1-443b-bd15-972a8695fd1b" />
+
+
 
 ---
 # Login Page
-<img width="1228" height="781" alt="Screenshot 2026-02-12 192917" src="https://github.com/user-attachments/assets/d949acd0-a75c-40eb-a779-66713717984a" />
+<img width="2137" height="1212" alt="image" src="https://github.com/user-attachments/assets/53f97559-cdc1-4144-a7e3-b12e31fce29d" />
 
 ---
 # SignIn Page
-<img width="768" height="695" alt="image" src="https://github.com/user-attachments/assets/feb5facc-87f1-477c-b323-af03c3df9348" />
+<img width="2145" height="1205" alt="image" src="https://github.com/user-attachments/assets/ca6ec9fd-6eef-420f-913d-b8946acc8ebb" />
 
 ---
-# User Dashboard
-<img width="2128" height="1216" alt="image" src="https://github.com/user-attachments/assets/27ddac03-4d0a-46b3-821e-1f2a054c6293" />
+
+# Home page
+<img width="2123" height="1205" alt="image" src="https://github.com/user-attachments/assets/ed472a86-5e73-4e45-b0ff-3bef541e9d6e" />
 
 ---
-# Employer Dashboard
-<img width="2133" height="1219" alt="image" src="https://github.com/user-attachments/assets/2f043cf2-4f51-4a7c-aea2-be6277460b1b" />
-<img width="2136" height="1188" alt="image" src="https://github.com/user-attachments/assets/bf1e4197-59d4-4fcb-a670-7a2cc6a9128b" />
+# Posts page
+<img width="2139" height="1171" alt="image" src="https://github.com/user-attachments/assets/29b17b3b-1114-46a5-ad50-b3f8c2120a36" />
+
+
+
 
 ---
-# Admin Dashboard
-<img width="2127" height="1216" alt="image" src="https://github.com/user-attachments/assets/60208cd4-083a-4d05-a136-700365532159" />
-<img width="2132" height="1222" alt="image" src="https://github.com/user-attachments/assets/d092812b-92a2-454c-8fef-02399be39fcd" />
+# Categories Page
+<img width="2145" height="1095" alt="image" src="https://github.com/user-attachments/assets/308c2cff-3820-46b1-9ea2-70cb51fc43ca" />
+
+
+
 
 
 

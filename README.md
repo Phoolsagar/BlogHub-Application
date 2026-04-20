@@ -26,7 +26,7 @@ It provides a structured blogging system where:
 
 ### 🔹 Tools & Utilities
 - STS
-- Git & GitHub
+- Git & GitHub 
 - Maven
 
 ---

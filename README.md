@@ -33,7 +33,7 @@ It provides a structured blogging system where:
 
 ## ✨ Features
 
-### 👤 User Features
+### 👤 User Features 
 - Register & Login (Session-based) 
 - Create blog posts
 - Edit and delete own posts

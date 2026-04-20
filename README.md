@@ -37,7 +37,7 @@ It provides a structured blogging system where:
 - Register & Login (Session-based) 
 - Create blog posts
 - Edit and delete own posts
-- View posts by category
+- View posts by category 
 - Pagination & sorting of posts 
 
 ### 🛡️ Admin Features

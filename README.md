@@ -6,7 +6,7 @@ It provides a structured blogging system where:
 - ✍️ Users can create, edit, and manage blog posts  
 - 🗂️ Posts are organized by categories  
 - 🔐 Role-based access (ADMIN / USER) controls actions  
-- ⚡ REST APIs power dynamic content rendering  
+- ⚡ REST APIs power dynamic content rendering   
 
 ---
 

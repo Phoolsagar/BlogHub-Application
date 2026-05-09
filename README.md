@@ -7,7 +7,7 @@ It provides a structured blogging system where:
 - 🗂️ Posts are organized by categories  
 - 🔐 Role-based access (ADMIN / USER) controls actions  
 - ⚡ REST APIs power dynamic content rendering   
-
+ 
 ---
 
 ## 🛠️ Tech Stack

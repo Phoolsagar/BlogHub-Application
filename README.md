@@ -4,7 +4,7 @@ BlogHub is a full-stack blogging web application built using Java (JDK 21), Spri
 
 It provides a structured blogging system where:
 - ✍️ Users can create, edit, and manage blog posts  
-- 🗂️ Posts are organized by categories  
+- 🗂️ Posts are organized by categories   
 - 🔐 Role-based access (ADMIN / USER) controls actions  
 - ⚡ REST APIs power dynamic content rendering   
  

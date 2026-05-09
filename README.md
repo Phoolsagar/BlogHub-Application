@@ -12,7 +12,7 @@ It provides a structured blogging system where:
  
 ## 🛠️ Tech Stack
 
-### 🔹 Backend 
+### 🔹 Backend  
 - Java (JDK 21)
 - Spring Boot
 - Spring Data JPA (Hibernate)

@@ -9,7 +9,7 @@ It provides a structured blogging system where:
 - ⚡ REST APIs power dynamic content rendering   
  
 ---
-
+ 
 ## 🛠️ Tech Stack
 
 ### 🔹 Backend 
